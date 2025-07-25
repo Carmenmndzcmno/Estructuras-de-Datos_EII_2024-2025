@@ -1,0 +1,373 @@
+Fecha y hora: 2024-12-02T21:12:48.122516700
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Fecha y hora: 2024-12-02T21:18:36.278041
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Fecha y hora: 2024-12-02T21:20:12.519974600
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Fecha y hora: 2024-12-02T21:22:09.443593900
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 2 despues de removeNode(150):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 3 despues de removeNode(200):
+			210
+		170
+	150
+90
+
+Fecha y hora: 2024-12-02T21:23:52.306417600
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 2 despues de removeNode(150):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 3 despues de removeNode(200):
+			210
+		170
+	150
+90
+
+Fecha y hora: 2024-12-02T21:26:04.750514
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 2 despues de removeNode(150):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 3 despues de removeNode(200):
+			210
+		170
+	150
+90
+
+Fecha y hora: 2024-12-02T21:26:37.253176200
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 2 despues de removeNode(150):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 3 despues de removeNode(200):
+			210
+		170
+	150
+90
+
+Fecha y hora: 2024-12-02T21:31:00.003591900
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 2 despues de removeNode(150):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 3 despues de removeNode(200):
+			210
+		170
+	150
+90
+
+Fecha y hora: 2024-12-02T21:31:44.931719400
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 2 despues de removeNode(150):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 3 despues de removeNode(200):
+			210
+		170
+	150
+90
+
+Fecha y hora: 2024-12-02T22:00:15.713373700
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+90
+
+Arbol prueba 2 despues de removeNode(150):
+		210
+	200
+		170
+90
+
+Arbol prueba 3 despues de removeNode(200):
+	210
+90
+
+Fecha y hora: 2024-12-02T22:03:41.037865900
+Arbol prueba REMOVE inicial:
+			210
+		200
+			170
+	150
+		120
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 1 despues de removeNode(120):
+			210
+		200
+			170
+	150
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 2 despues de removeNode(150):
+		210
+	200
+		170
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 3 despues de removeNode(200):
+		210
+	170
+100
+			90
+		70
+			60
+	50
+		30
+
+Arbol prueba 4 despues de removeNode(100):
+		210
+	170
+90
+		70
+			60
+	50
+		30
+
+Arbol prueba 5 despues de removeNode(70):
+		210
+	170
+90
+		60
+	50
+		30
+
+Arbol prueba 6 despues de removeNode(90):
+		210
+	170
+60
+	50
+		30
+
+Arbol prueba 7 despues de removeNode(60):
+		210
+	170
+50
+	30
+
+Arbol prueba 8 despues de removeNode(50):
+		210
+	170
+30
+
+Arbol prueba 9 despues de removeNode(30):
+	210
+170
+
+Arbol prueba 10 despues de removeNode(170):
+210
+
+Arbol prueba 11 despues de removeNode(210):
+
+Arbol prueba 12 despues de removeNode(NodoInexistente):
+
+Nodo nulo
+Arbol prueba 13 despues de removeNode(null):
+

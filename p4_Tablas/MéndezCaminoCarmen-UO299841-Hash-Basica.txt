@@ -1,0 +1,206 @@
+Fecha y hora: 2024-12-04T19:12:55.667007400
+Empieza la prueba basica de Hash: 
+h=new ClosedHashTable<Integer>(5,ClosedHashTable.LINEAL): 
+Fecha y hora: 2024-12-04T19:14:28.641679300
+Empieza la prueba basica de Hash: 
+h=new ClosedHashTable<Integer>(5,ClosedHashTable.LINEAL): 
+Fecha y hora: 2024-12-04T19:16:11.270823500
+Empieza la prueba basica de Hash: 
+h=new ClosedHashTable<Integer>(5,ClosedHashTable.LINEAL): 
+Operacion 1 h.add(0): true
+Estado 1-> {0};{_E_};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 2 h.add(5): true
+Estado 2-> {0};{5};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 2]
+Operacion 3 h.add(0): true
+Estado 3-> {0};{5};{0};{_E_};{_E_};[Size: 5 Num.Elems.: 3]
+Operacion 4 h.add(10): true
+Estado 4-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 5 h.add(0): false
+Estado 5-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 6 h.add(15): false
+Estado 6-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 7 h.remove(0): true
+Estado 7-> {_D_};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 3]
+Operacion 8 h.remove(10): true
+Estado 8-> {_D_};{5};{0};{_D_};{_E_};[Size: 5 Num.Elems.: 2]
+Operacion 9 h.remove(0): true
+Estado 9-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 10 h.remove(10): false
+Estado 10-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 11 h.remove(0): false
+Estado 11-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 12 h.remove(5): true
+Estado 12-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 13 h.remove(0): false
+Estado 13-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 14 h.remove(15): false
+Estado 14-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Termina la prueba basica de Hash.
+
+Empieza la prueba de excepciones de Hash: 
+Operacion 15 h.add(null): ha generado una NullPointerException (a)
+Estado 15-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 16 h.remove(null): ha generado una NullPointerException (a)
+Estado 16-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Termina la prueba de excepciones de Hash.
+
+Fecha y hora: 2024-12-04T19:21:45.702691400
+Empieza la prueba basica de Hash: 
+h=new ClosedHashTable<Integer>(5,ClosedHashTable.LINEAL): 
+Operacion 1 h.add(0): true
+Estado 1-> {0};{_E_};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 2 h.add(5): true
+Estado 2-> {0};{5};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 2]
+Operacion 3 h.add(0): true
+Estado 3-> {0};{5};{0};{_E_};{_E_};[Size: 5 Num.Elems.: 3]
+Operacion 4 h.add(10): true
+Estado 4-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 5 h.add(0): false
+Estado 5-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 6 h.add(15): false
+Estado 6-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 7 h.remove(0): true
+Estado 7-> {_D_};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 3]
+Operacion 8 h.remove(10): true
+Estado 8-> {_D_};{5};{0};{_D_};{_E_};[Size: 5 Num.Elems.: 2]
+Operacion 9 h.remove(0): true
+Estado 9-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 10 h.remove(10): false
+Estado 10-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 11 h.remove(0): false
+Estado 11-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 12 h.remove(5): true
+Estado 12-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 13 h.remove(0): false
+Estado 13-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 14 h.remove(15): false
+Estado 14-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Termina la prueba basica de Hash.
+
+Empieza la prueba de excepciones de Hash: 
+Operacion 15 h.add(null): ha generado una NullPointerException (a)
+Estado 15-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 16 h.remove(null): ha generado una NullPointerException (a)
+Estado 16-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Termina la prueba de excepciones de Hash.
+
+Fecha y hora: 2024-12-04T19:26:26.875583400
+Empieza la prueba basica de Hash: 
+h=new ClosedHashTable<Integer>(5,ClosedHashTable.LINEAL): 
+Operacion 1 h.add(0): true
+Estado 1-> {0};{_E_};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 2 h.add(5): true
+Estado 2-> {0};{5};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 2]
+Operacion 3 h.add(0): true
+Estado 3-> {0};{5};{0};{_E_};{_E_};[Size: 5 Num.Elems.: 3]
+Operacion 4 h.add(10): true
+Estado 4-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 5 h.add(0): false
+Estado 5-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 6 h.add(15): false
+Estado 6-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 7 h.remove(0): true
+Estado 7-> {_D_};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 3]
+Operacion 8 h.remove(10): true
+Estado 8-> {_D_};{5};{0};{_D_};{_E_};[Size: 5 Num.Elems.: 2]
+Operacion 9 h.remove(0): true
+Estado 9-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 10 h.remove(10): false
+Estado 10-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 11 h.remove(0): false
+Estado 11-> {_D_};{5};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 12 h.remove(5): true
+Estado 12-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 13 h.remove(0): false
+Estado 13-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 14 h.remove(15): false
+Estado 14-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Termina la prueba basica de Hash.
+
+Empieza la prueba de excepciones de Hash: 
+Operacion 15 h.add(null): ha generado una NullPointerException (a)
+Estado 15-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Operacion 16 h.remove(null): ha generado una NullPointerException (a)
+Estado 16-> {_D_};{_D_};{_D_};{_D_};{_E_};[Size: 5 Num.Elems.: 0]
+Termina la prueba de excepciones de Hash.
+
+Fecha y hora: 2024-12-04T19:31:39.003314900
+Empieza la prueba basica de Hash: 
+h=new ClosedHashTable<Integer>(5,ClosedHashTable.LINEAL): 
+Operacion 1 h.add(0): true
+Estado 1-> {0};{_E_};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 2 h.add(5): true
+Estado 2-> {0};{5};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 2]
+Operacion 3 h.add(0): true
+Estado 3-> {0};{5};{0};{_E_};{_E_};[Size: 5 Num.Elems.: 3]
+Operacion 4 h.add(10): true
+Estado 4-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 5 h.add(0): true
+Estado 5-> {0};{5};{0};{10};{0};[Size: 5 Num.Elems.: 5]
+Operacion 6 h.add(15): false
+Estado 6-> {0};{5};{0};{10};{0};[Size: 5 Num.Elems.: 5]
+Operacion 7 h.remove(0): true
+Estado 7-> {_D_};{5};{0};{10};{0};[Size: 5 Num.Elems.: 4]
+Operacion 8 h.remove(10): true
+Estado 8-> {_D_};{5};{0};{_D_};{0};[Size: 5 Num.Elems.: 3]
+Operacion 9 h.remove(0): true
+Estado 9-> {_D_};{5};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 2]
+Operacion 10 h.remove(10): false
+Estado 10-> {_D_};{5};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 2]
+Operacion 11 h.remove(0): false
+Estado 11-> {_D_};{5};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 2]
+Operacion 12 h.remove(5): true
+Estado 12-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Operacion 13 h.remove(0): false
+Estado 13-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Operacion 14 h.remove(15): false
+Estado 14-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Termina la prueba basica de Hash.
+
+Empieza la prueba de excepciones de Hash: 
+Operacion 15 h.add(null): ha generado una NullPointerException (a)
+Estado 15-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Operacion 16 h.remove(null): ha generado una NullPointerException (a)
+Estado 16-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Termina la prueba de excepciones de Hash.
+
+Fecha y hora: 2024-12-15T12:05:37.890679600
+Empieza la prueba basica de Hash: 
+h=new ClosedHashTable<Integer>(5,ClosedHashTable.LINEAL): 
+Operacion 1 h.add(0): true
+Estado 1-> {0};{_E_};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 1]
+Operacion 2 h.add(5): true
+Estado 2-> {0};{5};{_E_};{_E_};{_E_};[Size: 5 Num.Elems.: 2]
+Operacion 3 h.add(0): true
+Estado 3-> {0};{5};{0};{_E_};{_E_};[Size: 5 Num.Elems.: 3]
+Operacion 4 h.add(10): true
+Estado 4-> {0};{5};{0};{10};{_E_};[Size: 5 Num.Elems.: 4]
+Operacion 5 h.add(0): true
+Estado 5-> {0};{5};{0};{10};{0};[Size: 5 Num.Elems.: 5]
+Operacion 6 h.add(15): false
+Estado 6-> {0};{5};{0};{10};{0};[Size: 5 Num.Elems.: 5]
+Operacion 7 h.remove(0): true
+Estado 7-> {_D_};{5};{0};{10};{0};[Size: 5 Num.Elems.: 4]
+Operacion 8 h.remove(10): true
+Estado 8-> {_D_};{5};{0};{_D_};{0};[Size: 5 Num.Elems.: 3]
+Operacion 9 h.remove(0): true
+Estado 9-> {_D_};{5};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 2]
+Operacion 10 h.remove(10): false
+Estado 10-> {_D_};{5};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 2]
+Operacion 11 h.remove(0): false
+Estado 11-> {_D_};{5};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 2]
+Operacion 12 h.remove(5): true
+Estado 12-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Operacion 13 h.remove(0): false
+Estado 13-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Operacion 14 h.remove(15): false
+Estado 14-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Termina la prueba basica de Hash.
+
+Empieza la prueba de excepciones de Hash: 
+Operacion 15 h.add(null): ha generado una NullPointerException (Element to add is null.)
+Estado 15-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Operacion 16 h.remove(null): ha generado una NullPointerException (Element to remove is null.)
+Estado 16-> {_D_};{_D_};{_D_};{_D_};{0};[Size: 5 Num.Elems.: 1]
+Termina la prueba de excepciones de Hash.
+

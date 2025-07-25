@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"p2Grafos","l":"DijkstraDataClass"},{"p":"p2Grafos","l":"ElementNotPresentException"},{"p":"p2Grafos","l":"FullStructureException"},{"p":"p2Grafos","l":"Graph"},{"p":"p2Grafos","l":"GraphAbstract"}];updateSearchResults();
